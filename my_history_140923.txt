@@ -1,0 +1,642 @@
+    1  echo $SHELL
+    2  pwd
+    3  exit
+    4  pwd
+    5  pwd --help
+    6  pwd
+    7  all
+    8  -all
+    9  ls -l -t -a -h -F
+   10  pwd
+   11  cd /var/scratch/clab0641
+   12  pwd
+   13  cd /storage/exet4759/resources/
+   14  pwd
+   15  ls
+   16  ls -a
+   17  ls -a -d -F -h -l -r -S -t
+   18  ls --all
+   19  ls -a -F
+   20  cs /storage/exet4759/resources/1_linux
+   21  cd /storage/exet4759/resources/1_ linux
+   22  cd storage/exet4759/resources/1_linux
+   23  ls -a -F
+   24  cd storage/exet4759/resources/1_linux
+   25  cd /storage/exet4759/resources/1_linux
+   26  ls -a -F
+   27  ls -ltahF
+   28  cd /storage/exet4759/resources/1_linux intro
+   29  cd /storage/exet4759/resources/1_linux_intro
+   30  ls -ltahF
+   31  cd /storage/exet4759/resources/1_linux/1_linux_intro
+   32  cat manpage.txt
+   33  wc manpage.txt
+   34  wc -w manpage.txt
+   35  wc -l manpage.txt
+   36  head manpage.txt
+   37  tail manpage.txt
+   38  wc -m manpage.txt
+   39  wc -w manpage.txt
+   40  wc -l manpage.txt
+   41  more manpage.txt
+   42  less manpage.txt
+   43  history
+   44  less manpage.txt
+   45  history
+   46  pwd
+   47  cd /var/scratch/clab0641
+   48  pwd
+   49  mdir 1_linux
+   50  mkdir 1_linux
+   51  cd /var/scratch/clab0641/1_linux
+   52  pwd
+   53  exit
+   54  pwd
+   55  ls -ltahF
+   56  ls -l
+   57  pwd
+   58  groups
+   59  -c --help
+   60  pwd
+   61  cd /vsr/scratch/clab0641/1_linux
+   62  pwd
+   63  /var/scratch/clab0641/1_linux
+   64  pwd
+   65  cd var/scratch/clab0641/1_linux
+   66  cd /var/scratch/clab0641
+   67  pwd
+   68  cd /var/scratch/clab0641/1_linux
+   69  pwd
+   70  ls# /storage/exet4759/resources/
+   71  ls/storage/exet4759/resources
+   72  ls storage/exet4759/resources
+   73  ls /storage/exet4759/resources
+   74  ls /storage/exet4759/resources/1_linux
+   75  ls /storage/exet4759/resources/1_linux_intro
+   76  ls /storage/exet4759/resources/1_linux/1_linux_intro
+   77  cp /storage/exet4759/resources/1_linux/1_linux_intro/SRR2121685h_1.fastq .
+   78  ls .
+   79  ls
+   80  cat SRR2121685h_1.fastq 
+   81  wc -w SRR2121685h_1.fastq 
+   82  wc SRR2121685h_1.fastq 
+   83  wc -l SRR2121685h_1.fastq 
+   84  nano SRR2121685h_1.fastq 
+   85  wc -l SRR2121685h_1.fastq 
+   86  wc -m SRR2121685h_1.fastq 
+   87  cp /storage/exet4759/resources/1_linux/1_linux_intro .
+   88  cp -r /storage/exet4759/resources/1_linux/1_linux_intro .
+   89  ls
+   90  cd /var/scratch/clab0641/1_linux/1_linux_intro
+   91  pwd
+   92  mv /var/scracth/clab0641/1_linux/SRR2121685h_1.fastq .
+   93  ls
+   94  cd /var/scratch/clab0641/1_linux
+   95  pwd
+   96  ls .
+   97  mv /var/scratch/clab0641/1_linux/SRR2121685h_1.fastq /var/scratch/clab0641/1_linux/1_linux_intro
+   98  cd /var/scratch/clab0641/1_linux/1_linux_intro
+   99  ls .
+  100  cp /var/scratch/clab0641/1_linux/1_linux_intro/SRR2121685h_1.fastq /var/scratch/clab0641/1_linux
+  101  ls /var/scratch/clab0641/1_linux
+  102  mv -i /var/scratch/clab0641/1_linux/SRR2121685h_1.fastq /var/scratch/clab0641/1_linux/1_linux_intro
+  103  ls .
+  104  chmod 700 manpage.txt
+  105  ls -l manpage.txt
+  106  cd ~
+  107  pwd
+  108  cd /
+  109  pwd
+  110  cd ~
+  111  pwd
+  112  mkdir obds_linux
+  113  ls .
+  114  cd /home/imm/clab0641/obds_linux
+  115  pwd 
+  116  cp /var/scratch/clab0641/1_linux/1_linux_intro/manpage.txt /home/imm/clab0641/obds_linux/copy.txt
+  117  ls .
+  118  pwd
+  119  stat /var/scratch/clab0641/1_linux/1_linux_intro
+  120  ls /var/scratch/clab0641/1_linux/1_linux_intro
+  121  stat -f /var/scratch/clab0641/1_linux/1_linux_intro
+  122  /var/scratch/clab0641/1_linux_1_linux-intro stat
+  123  cd var/scratch/clab0641/1_linux/1_linux_intro
+  124  pwd
+  125  cd /var/scratch/clab0641/1_linux/1_linux_intro
+  126  pwd
+  127  stat *.*
+  128  stat -c %n %a %s *.*
+  129  stat -c "%n: %a: %s:" *.*
+  130  cd ~
+  131  pwd
+  132  nano test.txt
+  133  ls .
+  134  ls -l test.txt
+  135  chmod 700 test.txt
+  136  ls -l test.txt
+  137  stat -c "%n %s %a" test.txt
+  138  exit
+  139  pwd
+  140  cd /var/scratch/clab0641/1_linux/1_linux_intro
+  141  pwd
+  142  ls.
+  143  ls .
+  144  cd~
+  145  cd ~
+  146  pwd
+  147  ls .
+  148  cd /~/obds_linux
+  149  cd /home/imm/clab0641/obds_linux
+  150  pwd
+  151  ls .
+  152  nano copy.txt
+  153  ls .
+  154  ln -s /var/scratch/clab0641/1_linux/1_linux_intro/SRR2121685h_1.fastq symlink.fastq
+  155  ls .
+  156  /var/scratch/clab0641/1_linux/1_linux_intro/SRR2121685h_1.fastq hardlink.fastq
+  157  ls .
+  158  cat symlink.fastq
+  159  ls .
+  160  pwd
+  161  cd ~
+  162  pwd
+  163  rm copy.txt
+  164  cd ~/obds_linux
+  165  pwd
+  166  rm copy.txt
+  167  rm edit.txt
+  168  ls .
+  169  cd ~
+  170  rm obds_linux
+  171  rm -r obds_linux
+  172  ls .
+  173  pwd 
+  174  pwd
+  175  jobs
+  176  ps
+  177  top
+  178  htop
+  179  du -h
+  180  du
+  181  killall
+  182  pwd
+  183  sleep
+  184  sleep --help
+  185  sleep 500
+  186  bg sleep
+  187  fg
+  188  sleep 10
+  189  bg
+  190  sleep 500
+  191  bg sleep 500
+  192  fg 
+  193  sleep 500
+  194  bg
+  195  sleep 750 
+  196  bg
+  197  fg
+  198  sleep 33
+  199  bg
+  200  fg
+  201  bg
+  202  jobs
+  203  sleep 55
+  204  bg
+  205  jobs
+  206  sleep 33
+  207  bg#
+  208  bg
+  209  jobs
+  210  fg
+  211  sleep 500
+  212  bg
+  213  sleep 750
+  214  bg
+  215  kill [1]
+  216  jobs
+  217  kill sleep 500&
+  218  jobs
+  219  killall
+  220  killall -l
+  221  killall -l sleep
+  222  jobs
+  223  ps
+  224  kill 108135
+  225  kill 108132
+  226  kill 108147
+  227  jobs
+  228  sleep 500
+  229  bg
+  230  sleep 750
+  231  bg
+  232  jobs
+  233  ps
+  234  jobs
+  235  ps
+  236  killall sleep
+  237  jobs
+  238  sleep 500&
+  239  jobs
+  240  kill 108658
+  241  jobs
+  242  sleep 500
+  243  bg
+  244  sleep 750
+  245  bg
+  246  sleep 890&
+  247  ps
+  248  kill 108664
+  249  jobs
+  250  killall sleep
+  251  htop clab0641
+  252  du .
+  253  du -h .
+  254  sleep 750
+  255  bg
+  256  ps
+  257  jobs
+  258  sleep 500&
+  259  kill 108845
+  260  ps
+  261  fg
+  262  sleep 577&
+  263  sleep899&
+  264  sleep902&
+  265  sleep 903&
+  266  jobs
+  267  sleep 788&
+  268  jobs
+  269  killall sleep
+  270  jobs
+  271  htop
+  272  htop 
+  273  htop
+  274  du
+  275  du -h
+  276  exit
+  277  pwd
+  278  ~/.ssh/
+  279  ls -a .
+  280  echo $USER
+  281  echo $HOST
+  282  ps
+  283  printenv $user#
+  284  printenv $USER
+  285  module availe
+  286  module avail
+  287  cd ~/.ssh
+  288  ls .
+  289  ls
+  290  exit
+  291  echo $MYSTORE
+  292  cd $MYSTORE
+  293  cd $STORE
+  294  mystore
+  295  cd ~
+  296  cd /storage/exet4759/resources/
+  297  ls .
+  298  cd /storage/exet4759/resources/1_linux
+  299  ls .
+  300  cd /var/scratch/clab0641
+  301  ls .
+  302  cd /var/scratch/clab0641/1_linux
+  303  ls .
+  304  ls -a
+  305  ls .bashrc
+  306  cd /var/scratch/clab0641/.bashrc
+  307  ls -a
+  308  nano .bash_aliases
+  309  source .bashrc
+  310  nano .bash_aliases
+  311  source .bashrc
+  312  gotomystore1linux
+  313  makernaseq
+  314  ls .
+  315  cd ~
+  316  nano .bash_aliases
+  317  source .bashrc
+  318  gotornaseq
+  319  make1_fastq
+  320  make2_genome
+  321  ls .
+  322  cd ~
+  323  cd /storage/exet4759/resources
+  324  ls .
+  325  cd /storage/exet4759/resources/1_linux
+  326  ls .
+  327  cd storage/exet4759/resources/1_linux/rnaseq
+  328  cd /storage/exet4759/resources/1_linux/rnaseq
+  329  ls .4
+  330  ls .
+  331  cd ~
+  332  source .bashrc
+  333  gotornaseq
+  334  cd /var/scratch/clab0641/1_linux/rnaseq/1_fastq
+  335  ln -s /var/scratch/exet4759/resources/1_linux/rnaseq/ERR1755082_1.fastq.gz
+  336  /var/scratch/exet4759/resources/1_linux/rnaseq/ERR1755082_2.fastq.gz
+  337  ls .
+  338  rm ERR1755082.1.fastq.gz
+  339  ls .
+  340  cd /var/scratch/clab0641/1_linux/rnaseq
+  341  gotornaseq
+  342  rm 1_fastq
+  343  rm -r 1_fastq
+  344  ls .
+  345  make1_fastq
+  346  ls .
+  347  cd /storage/exet4759/resources/1_linux/rnaseq
+  348  ls .
+  349  gotornaseq
+  350  cd /var/scratch/clab0641/1_linux/rnaseq/1_fastq
+  351  ln -s /storage/exet4759/resources/1_linux/rnaseq/ERR1755082_1.fastq.gz
+  352  ln -s storage/exet4759/resources/1_linux/rnaseq/ERR1755082_2.fastq.gz
+  353  ls .
+  354  rm ERR1755082_2.fastq.gz
+  355  ls .
+  356  ln -s /storage/exet4759/resources/1_linux/rnaseq/ERR1755082_2.fastq.gz
+  357  ls .
+  358  cp /storage/exet4759/resources/1_linux/rnaseq/md5sum.txt
+  359  cp /storage/exet4759/resources/1_linux/rnaseq/md5sum.txt /var/scratch/clab0641/1_linux/rnaseq/1_fastq/mymd5sum.txt
+  360  ls .
+  361  cp mymd5sum.txt md5sum.txt
+  362  ls .
+  363  rm mymd5sum.txt
+  364  ls .
+  365  md5sum -c md5sum.txt
+  366  md5sum --help
+  367  md5sum -c /storage/exet4759/resources/1_linux/rnaseq/md5sum.txt
+  368  cd /storage/exet4759/resources/1_linux/rnaseq
+  369  md5sum -c md5sum.txt
+  370  gotornaseq
+  371  cd /var/scratch/clab0641/1_linux/rnaseq/1_fastq
+  372  md5sum--ignore-missing -c md5sum.txt
+  373  md5sum --ignore-missing -c md5sum.txt
+  374  cd /var/scratch/clab0641/1_linux/rnaseq/2_genome
+  375  wget https://ftp.ensembl.org/pub/release-102/fasta/mus_musculus/dna/Mus_musculus.GRCm38.dna.primary_assembly.fa.gz
+  376  ls .
+  377  wget https://ftp.ensembl.org/pub/release-102/fasta/mus_musculus/dna/CHECKSUMS
+  378  sum Mus_musculus.GRCm38.dna.primary_assembly.fa.gz
+  379  cat CHECKSUMS
+  380  grep primary_assembly CHECKSUMS
+  381  ls .bashrc
+  382  nano .bash_aliases
+  383  ls .
+  384  ls -a
+  385  nano .bash_aliases
+  386  source .bashrc
+  387  mystorage
+  388  alias 
+  389  mystore
+  390  more .bashrc
+  391  nano .bash_aliases
+  392  source .bashrc
+  393  store
+  394  echo $PATH
+  395  module avail
+  396  module avail fastqc
+  397  module add fastqc
+  398  which
+  399  which fastqc
+  400  fastqc --help
+  401  echo $PATH
+  402  module unload fastqc
+  403  echo $PATH
+  404  which fastqc
+  405  ls .
+  406  cd /var/scratch/clab0641
+  407  ls .
+  408  pwd
+  409  ls
+  410  ls .
+  411  ls -alhF
+  412  nano .bash.aliases
+  413  nano bash_aliases
+  414  nano .bash_aliases
+  415  ls -alhF
+  416  source .bash_aliases
+  417  la
+  418  cd~
+  419  cd ~
+  420  cd ~/.ssh
+  421  ls .
+  422  ls -alhF
+  423  cd ~
+  424  exit
+  425  ssh-keygen -t ecdsa -b 521
+  426  cat ~.ssh/id_ecdsa.pub
+  427  ~/.ssh/id_ecdsa.pub
+  428  cat ~/.ssh/id_ecdsa.pub
+  429  pwd
+  430  git
+  431  git --version
+  432  git clone --help
+  433  git config --global user.name
+  434  git config --global user.email
+  435  git config --global user.name "Leonid Olender"
+  436  git config --global user.email "leonid.olender10@gmail.com"
+  437  mkdir /var/scratch/$USER/git
+  438  ls /var/scratch/$USER
+  439  cd /var/scratch/$USER/git
+  440  git clone git@github.com:olender1989/Leonid-OBDS-Sep-2023.git
+  441  cd Leonid-OBDS-Sep-2023
+  442  ls -a
+  443  ls -a .git/
+  444  ls .
+  445  ls -a .
+  446  pwd
+  447  nano .gitignore
+  448  git status
+  449  rm -rf .git
+  450  git
+  451  git clone
+  452  git clone git@github.com:olender1989/Leonid-OBDS-Sep-2023
+  453  cd ~/git
+  454  cd ~
+  455  cd /var/scratch/$USER/git
+  456  git clone git@github.com:olender1989/Leonid-OBDS-Sep-2023
+  457  rm -rf Leonid-OBDS-Sep-2023
+  458  ls .
+  459  ls -a
+  460  git clone git@github.com:olender1989/Leonid-OBDS-Sep-2023
+  461  ls -a
+  462  cd Leonid-OBDS-Sep-2023
+  463  ls -a
+  464  git status
+  465  nano .gitignore
+  466  git status
+  467  git add .gitignore
+  468  git status
+  469  git commit .gitignore
+  470  git commit -m "Added .gitignore file"
+  471  exit
+  472  ls -a
+  473  cd /var/scratch/clab0641
+  474  ls -a
+  475  cd /var/scratch/$USER/git
+  476  ls -a
+  477  git status
+  478  cd Leonid-OBDS-Sep-2023
+  479  git status
+  480  git add .gitignore
+  481  git status
+  482  git commit -m "Add .gitignore file"
+  483  git status
+  484  git push
+  485  git status
+  486  git diff
+  487  git diff .gitignore
+  488  ls .
+  489  git remote -v
+  490  git push origin main
+  491  git log --all --oneline
+  492  git show .gitignore
+  493  git pull
+  494  git status
+  495  git log
+  496  exit
+  497  less ~/.bashrc
+  498  cd /var/scratch/$USER
+  499  mkdir mamba_installation
+  500  ls -a
+  501  cd mamba_installation
+  502  curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+  503  bash Mambaforge-$(uname)-$(uname -m).sh -b -p conda
+  504  # let's check where we have installed it to help us with the next command
+  505  $ pwd 
+  506  # Activate conda installation - by sourcing the conda.sh script 
+  507  # we will need the full path to be correct - tabbing will help avoid errors
+  508  $ source /var/scratch/$USER/mamba_installation/conda/etc/profile.d/conda.sh
+  509  # Activate mamba installation - by sourcing the mamba.sh script 
+  510  $ source /var/scratch/$USER/mamba_installation/conda/etc/profile.d/mamba.sh
+  511  # Activate base environment to move into the default conda/mamba software environment
+  512  $ mamba activate base
+  513  pwd
+  514  source /var/scratch/$USER/mamba_installation/conda/etc/profile.d/conda.sh
+  515  source /var/scratch/$USER/mamba_installation/conda/etc/profile.d/mamba.sh
+  516  ls
+  517  mamba activate base
+  518  which conda
+  519  which mamba
+  520  conda --help
+  521  mamba --help
+  522  nano ~/.bash_aliases
+  523  mamba info
+  524  conda config --add channels defaults
+  525  conda config --add channels conda-forge
+  526  conda config --add channels bioconda
+  527  mamba info
+  528  mamba list
+  529  mamba update --all
+  530  mamba env -h
+  531  mamba env list
+  532  $ mamba create -n peaktools_env
+  533  mamba create -n peaktools_env
+  534  mamba activate peaktools_env
+  535  mamba list deeptools
+  536  mamba search deeptools
+  537  mamba install deeptools
+  538  which deeptools
+  539  mamba install samtools bedtools
+  540  which bedtools
+  541  which samtools
+  542  mamba list
+  543  deeptools --help
+  544  bedtools --help
+  545  samtools --help
+  546  mamba deactivate
+  547  mamba create -n test_tools_env samtools bedtools
+  548  mamba activate test_tools_env
+  549  samtools --help
+  550  bedtools --help
+  551  mamba deactivate
+  552  mamba remove --name test_tools_env --all
+  553  mamba env list
+  554  cp /storage/shared/resources/1_linux/3_conda/obds-rnaseq.yml /var/scratch/$USER/mamba_installation
+  555  ls -a /var/scratch/$USER/mamba_installation
+  556  less /var/scratch/$USER/mamba_installation/obds-rnaseq.yml
+  557  mamba env create -f obds-rnaseq.yml
+  558  mamba list
+  559  mamba env list
+  560  mamba env create -n alternative_name_env -f obds-rnaseq.yml
+  561  mamba activate obds-rnaseq
+  562  python --version
+  563  mamba list
+  564  mamba env export -n obds-rnaseq
+  565  mamba env export -n obds-rnaseq > my_obds_environment.yml
+  566  nano ~/.bash_aliases
+  567  cd ~
+  568  mamba deactivate
+  569  source .bash_aliases
+  570  load_mamba
+  571  mamba deactivate
+  572  maba deactivate
+  573  mamba deactivate
+  574  source .bash_aliases
+  575  load_mamba
+  576  mamba deactivate
+  577  exit
+  578  nano .bash_aliases
+  579  load_mamba
+  580  mamba obds-rnaseq list
+  581  mamba list
+  582  mamba deactivate
+  583  load_mamba
+  584  fastqc ~h
+  585  update --all
+  586  mamba update --all
+  587  fastqc ~h
+  588  fastqc -h
+  589  exit
+  590  load_mamba
+  591  cd /var/scratch/$USER/1_linux/rnaseq/1_fastq/
+  592  ln -s /storage/clab0651/resources/1_linux/rnaseq/ERR1755082_1 1409link_1
+  593  ln -s /storage/clab0651/resources/1_linux/rnaseq/ERR1755082_2 1409link_2
+  594  ls .
+  595  rm ERR1755082_*.fastq.gz
+  596  ls .
+  597  fastqc -h
+  598  fastqc 1409link_1
+  599  cd /var/scratch/clab0641/1_linux/rnaseq
+  600  ls .
+  601  mkdir 3_analysis
+  602  ls .
+  603  cd 3_analysis
+  604  mkdir 1_fastq
+  605  cd 1_fastq
+  606  cd /var/scratch/clab0641/1_linux/rnaseq/1_fastq
+  607  ls .
+  608  fastqc -o /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq 1409link_1
+  609  ls .
+  610  mv 1409link_1 1409link_1.fq.gz
+  611  fastqc -o /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq 1409link_1.fq.gz
+  612  ls -l
+  613  rm 1409link_*
+  614  ls 
+  615  ln -s /storage/clab0651/resources/1_linux/rnaseq/ERR1755082_1.fastq.gz 1409link_1
+  616  ls -l
+  617  ln -s /storage/clab0651/resources/1_linux/rnaseq/ERR1755082_2.fastq.gz 1409link_2
+  618  ls -l
+  619  fastqc -o /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq 1409link_1 1409link_2
+  620  cp /storage/clab0651/resources/1_linux/rnaseq/ERR1755082_1.fastq.gz fastqfil_1.fastq.gz
+  621  ls .
+  622  fastqc fastqfil_1.fastq.gz
+  623  mv 1409link_1 1409link_1.fq.gz
+  624  ls .
+  625  mv 1409link_2 1409link_2.fq.gz
+  626  fastqc -o  /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq 1409link_1.fq.gz
+  627  rm fastqfil_1*
+  628  ls .
+  629  cd /var/scratch/clab0641/1_linux/rnaseq3_analysis/1_fastq
+  630  /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq
+  631  cd /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq
+  632  ls .
+  633  multiqc -o  /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq 1409link_1.fq.gz 1409link_2.fq.gz
+  634  cd /var/scratch/clab0641/1_linux/rnaseq/1_fastq
+  635  ls .
+  636  multiqc -o /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq /var/scratch/clab0641/1_linux/rnaseq/1_fastq
+  637  cd /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq
+  638  multiqc
+  639  multiqc /var/scratch/clab0641/1_linux/rnaseq/3_analysis/1_fastq
+  640  ls .
+  641  history
+  642  history > my_history_140923
